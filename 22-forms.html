@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<h4>Stacked form</h4>
+<div class ="container">
+	<div class=" form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+
+<br>
+
+	<h4>Inline Form</h4>
+
+<div class = "container">
+         <h2>Inline Forms</h2>
+         <form class = "form-inline" action = "/action_page.php">
+            <label for = "email">Email : 
+            <input type = "email" class = "form-control" id = "email" 
+               placeholder = "Enter email" name =" email"></label>
+            <label for = "pwd">Password :
+            <input type = "password" class = "form-control" id = "pwd" 
+               placeholder = "Enter password" name = "pswd"></label>
+            <button type = "submit" class = "btn btn-primary">Sign In</button>
+         </form>
+      </div>
+
+      <br>
+
+	<h4>Inline Form  with Utilities</h4>
+
+	<form class="form-inline" action="/action_page.php">
+    <label for="email2" class="mb-2 mr-sm-2">Email:</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email">
+    <label for="pwd2" class="mb-2 mr-sm-2">Password:</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Enter password" name="pswd">
+    <div class="form-check mb-2 mr-sm-2">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" name="remember"> Remember me
+      </label>
+    </div>    
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+
+
+  <br>
+
+	<h4>Form Row/Grid</h4>
+
+<form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter firstname" name="fname">
+    </div>
+    <div class="col">
+      <input type="password" class="form-control" placeholder="Enter lastname" name="lname">
+    </div>
+  </div>
+</form> 
+</div>
+
+</body>
+</html>
